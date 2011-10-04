@@ -1,0 +1,8 @@
+<package project="Mer:Trunk:Base" name="hwdata">
+  <title>Hardware identification and configuration data</title>
+  <description>hwdata contains various hardware identification and configuration data,
+such as the pci.ids database and MonitorsDb databases.
+
+</description>
+  <url>http://git.fedorahosted.org/git/hwdata.git</url>
+</package>

@@ -1,0 +1,15 @@
+* Tue Jun 07 2011 Anas Nashif <anas.nashif@intel.com> - 0.232
+- Update to latest revision
+
+* Wed Jan 19 2011 Arjan van de Ven <arjan@linux.intel.com>
+- update pci.ids and usb.ids
+
+* Tue Sep 01 2009 Li Peng <peng.li@intel.com> 0.225
+- Update to 0.225
+
+* Fri Mar 27 2009 Anas Nashif <anas.nashif@intel.com> 0.222.1
+- Update pci.ids and other hw data
+
+* Fri Mar 27 2009 Anas Nashif <anas.nashif@intel.com> 0.222.1
+- Update to 0.222.1
+
