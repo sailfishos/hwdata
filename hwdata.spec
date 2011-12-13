@@ -3,7 +3,7 @@
 #
 
 Name:           hwdata
-Version:        0.232
+Version:        0.234
 Release:        1
 License:        GPLv2+ and LGPLv2+
 Summary:        Hardware identification and configuration data
