@@ -1,12 +1,11 @@
 Name:           hwdata
-Version:        0.291
+Version:        0.326
 Release:        1
 License:        GPLv2+
 Summary:        Hardware identification and configuration data
 Group:          System/Base
 Source:         %{name}-%{version}.tar.bz2
-Url:            http://git.fedorahosted.org/git/hwdata.git
-Requires:       module-init-tools >= 3.2
+URL:            https://git.sailfishos.org/mer-core/hwdata
 BuildArch:      noarch
 
 %description
@@ -27,7 +26,7 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
-%doc LICENSE COPYING
+%license LICENSE COPYING
 %dir %{_datadir}/%{name}
 %{_libdir}/modprobe.d/dist-blacklist.conf
 %{_datadir}/%{name}/*
