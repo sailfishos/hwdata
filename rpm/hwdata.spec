@@ -1,5 +1,5 @@
 Name:           hwdata
-Version:        0.326
+Version:        0.335
 Release:        1
 License:        GPLv2+
 Summary:        Hardware identification and configuration data
@@ -16,7 +16,7 @@ such as the pci.ids database and MonitorsDb databases.
 %setup -q -n %{name}-%{version}/%{name}
 
 %build
-./configure
+./configure --libdir=%{_libdir}
 
 %install
 %make_install
