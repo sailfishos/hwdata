@@ -11,6 +11,15 @@ BuildArch:      noarch
 hwdata contains various hardware identification and configuration data,
 such as the pci.ids database and MonitorsDb databases.
 
+%package        devel
+Summary:        Development files for %{name}
+Requires:       %{name} = %{version}-%{release}
+
+%description    devel
+The hwdata-devel package contains files for developing applications that use
+hwdata.
+
+
 %prep
 %setup -q -n %{name}-%{version}/%{name}
 
@@ -25,4 +34,6 @@ such as the pci.ids database and MonitorsDb databases.
 %dir %{_datadir}/%{name}
 %{_libdir}/modprobe.d/dist-blacklist.conf
 %{_datadir}/%{name}/*
+
+%files devel
 %{_datadir}/pkgconfig/hwdata.pc
